@@ -48,7 +48,7 @@ If the base box is not present that command fetches it first. The setup itself t
 Post-Install and Validation 
 ---------------------------
 
-Go to the default Vagrant shared folder (/vagrant) and execute the postInstall.sh script. That will enable the public and private key authentication from the master machine to the slave machine. Answer the questions and remember that the vagrant user uses the vagrant password. The final step will run a series of unit test. The Ruby code is located in /vagrant/ruby.
+Go to the default Vagrant shared folder (/vagrant) and execute the validate.sh script. That will enable the public and private key authentication from the master machine to the slave machine. Answer the questions and remember that the vagrant user uses the vagrant password. The final step will run a series of unit test. The Ruby code is located in /vagrant/ruby.
 
 Suggested Usage
 ---------------
