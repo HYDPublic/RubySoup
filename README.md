@@ -65,8 +65,3 @@ Going from here and TODOs
 
 Experiment with NFS synced folders and measure performances
 http://docs.vagrantup.com/v2/synced-folders/nfs.html
-
-License
--------
-
-So far there is no license for this project, but use at your own risk.
