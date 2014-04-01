@@ -1,5 +1,6 @@
 require 'test/unit'
 
+# very basic test
 class StringTest < Test::Unit::TestCase
   def test_length
     s = "Hello, World!"

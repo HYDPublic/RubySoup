@@ -1,6 +1,7 @@
 require 'test/unit'
 require 'net/ssh'
 
+# verify that SSH is working correctly from the master to the slave
 class TestSSHExecute < Test::Unit::TestCase
 
   REMOTEHOST = '10.11.1.101'

@@ -30,7 +30,10 @@ package { 'git-core':
   ensure => installed
 }
 
-  # STN # ExecJS runtime.
+  # ---
+  # STN 2014Apr01 remove that from the brown bag
+  # ---
+  # STN ExecJS runtime.
   # STN package { 'nodejs':
   # STN   ensure => installed
   # STN }

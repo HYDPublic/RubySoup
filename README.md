@@ -2,7 +2,7 @@
 RubySoup
 ========
 
-Vagrant virtual environment for learning and developing with Ruby, SSH, SCP and unit testing
+Vagrant virtual environment for learning and developing with Ruby, SSH, SCP and unit testing.
 
 *It’s hard to be chunkier… Use at your own risk.*
 

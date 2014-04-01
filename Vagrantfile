@@ -1,6 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+# Simple Vagrant file
 Vagrant.configure("2") do |config|
 
   config.vm.define :master do |master|
@@ -18,6 +19,10 @@ Vagrant.configure("2") do |config|
     slave.vm.box = "precise64"
     slave.vm.box_url = "http://files.vagrantup.com/precise64.box"
     slave.vm.network :private_network, ip: "10.11.1.101"
+#    master.vm.provision :puppet do |puppet|
+#      puppet.manifests_path = "provision/manifests"
+#      puppet.manifest_file  = "slave.pp"
+#    end
   end
 
 end
