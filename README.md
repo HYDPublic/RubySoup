@@ -46,7 +46,7 @@ Building the virtual machines and the environment is really simple:
 	
 If the base box is not present that command fetches it first. The setup itself takes less than 5 minutes on my Dell Latitude E6420 with a WiFi connection. After the installation has finished, you can access the master virtual machine with
 
-	host$ vagrant ssh server1
+	host$ vagrant ssh master
   
 Post-Install and Validation 
 ---------------------------
