@@ -1,6 +1,8 @@
 
+
 # vagrant specific ignore
 .vagrant
+
 
 # Ruby specific ignore
 *.gem
@@ -16,6 +18,7 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
+
 
 # YARD artifacts
 .yardoc
